@@ -1,16 +1,12 @@
 package baseinfo.web;
 
-import org.apache.ibatis.session.SqlSession;
-import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
 
 import baseinfo.dao.iRoleDAO;
 import baseinfo.dto.iRoleDTO;
 
+@Controller
 public class iRoleController {
-	
-	public static void main(String[] args) {
-		testRoleMapper();
-	}
 	
 	private static void testRoleMapper() {
 //		Logger log = Logger.getLogger(iRoleController.class);
